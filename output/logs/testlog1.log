@@ -1097,3 +1097,14 @@
 2023-08-26 11:54:24,134 [main] INFO logger_File - User information was entered successfully
 2023-08-26 11:54:24,185 [main] INFO logger_File - Signup button was clicked sucessfully
 2023-08-26 11:54:24,534 [main] INFO logger_File - User account is created successfully
+2023-08-26 11:57:34,164 [main] INFO logger_File - The user is on tek retail website
+2023-08-26 11:57:34,239 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-26 11:57:34,360 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-26 11:57:34,414 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-26 11:57:34,765 [main] INFO logger_File - The user is signed in successfully
+2023-08-26 11:57:36,651 [main] INFO logger_File - The user is on tek retail website
+2023-08-26 11:57:36,717 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-26 11:57:36,768 [main] INFO logger_File - Create new account bttn clicked successfully
+2023-08-26 11:57:36,996 [main] INFO logger_File - User information was entered successfully
+2023-08-26 11:57:37,045 [main] INFO logger_File - Signup button was clicked sucessfully
+2023-08-26 11:57:37,406 [main] INFO logger_File - User account is created successfully
