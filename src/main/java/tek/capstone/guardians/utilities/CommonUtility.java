@@ -1,16 +1,12 @@
 package tek.capstone.guardians.utilities;
 
-import java.time.Duration;
-import java.util.Iterator;
-import java.util.NoSuchElementException;
-import java.util.Set;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -18,12 +14,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import io.netty.handler.timeout.TimeoutException;
-import tek.capstone.guardians.base.BaseSetup;
+import tek.capstone.guardians.base.*;
+import java.time.Duration;
+import java.util.NoSuchElementException;
+import java.util.Set;
 
 public class CommonUtility extends BaseSetup {
 	public WebDriverWait getWait() {
-		return new WebDriverWait(getDriver(), Duration.ofSeconds(20));
+		return new WebDriverWait(getDriver(), Duration.ofSeconds(30));
 	}
 
 	public WebElement waitTillClickable(WebElement element) {
@@ -179,6 +177,15 @@ public class CommonUtility extends BaseSetup {
 		return element;
 	}
 
+	public WebElement fluientWaitforElement(By element, int timoutSec, int pollingSec) {
+		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(getDriver()).withTimeout(Duration.ofSeconds(30))
+				.pollingEvery(Duration.ofSeconds(30)).ignoring(NoSuchElementException.class, TimeoutException.class)
+				.ignoring(StaleElementReferenceException.class);
+		for (int i = 0; i < 2; i++)
+			fWait.until(ExpectedConditions.visibilityOf((WebElement) element));
+		return (WebElement) element;
+	}
+
 	public void switchwindow(String pageTitle) {
 		String currentWindow = getDriver().getWindowHandle();
 		Set<String> handles = getDriver().getWindowHandles();
@@ -206,16 +213,4 @@ public class CommonUtility extends BaseSetup {
 		JavascriptExecutor js = ((JavascriptExecutor) getDriver());
 		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 	}
-
-	public void switchToNewWindow(String parentWindow) {
-		Set<String> allWindows = getDriver().getWindowHandles();
-		Iterator<String> itr = allWindows.iterator();
-		while (itr.hasNext()) {
-			String childWin = itr.next();
-			if (!parentWindow.equals(childWin)) {
-				getDriver().switchTo().window(childWin);
-			}
-		}
-	}
-
 }
