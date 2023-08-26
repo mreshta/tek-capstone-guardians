@@ -56,11 +56,13 @@ public class LoginSteps extends CommonUtility{
 	}
 	@When("User click on SignUp button")
 	public void userClickOnSignUpButton() {
-	    
+		click(pomFactory.loginPage().signupBttn);
+        logger.info("Signup button was clicked sucessfully");
 	}
 	@Then("User should be logged into account page")
 	public void userShouldBeLoggedIntoAccountPage() {
-	   
+		Assert.assertTrue(pomFactory.loginPage().yourProfileText.isDisplayed());
+        logger.info("User account is created successfully");
 }
 	
 }	

@@ -1022,3 +1022,27 @@
 2023-08-26 01:52:57,448 - logger_File -INFO - the user clicked on account option
 2023-08-26 01:52:57,877 - logger_File -INFO - The remove button was clicked successfully
 2023-08-26 01:52:57,892 - logger_File -INFO - The address was removed successfully
+2023-08-26 11:32:15,255 - logger_File -INFO - The user is on tek retail website
+2023-08-26 11:32:15,334 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 11:32:15,386 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 11:32:15,615 - logger_File -INFO - User information was entered successfully
+2023-08-26 11:33:19,259 - logger_File -INFO - The user is on tek retail website
+2023-08-26 11:33:19,339 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 11:33:19,398 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 11:33:19,647 - logger_File -INFO - User information was entered successfully
+2023-08-26 11:35:52,862 - logger_File -INFO - The user is on tek retail website
+2023-08-26 11:35:52,941 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 11:35:52,999 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 11:35:53,252 - logger_File -INFO - User information was entered successfully
+2023-08-26 11:35:53,304 - logger_File -INFO - Signup button was clicked sucessfully
+2023-08-26 11:39:43,372 - logger_File -INFO - The user is on tek retail website
+2023-08-26 11:39:43,455 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 11:39:43,510 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 11:39:43,764 - logger_File -INFO - User information was entered successfully
+2023-08-26 11:39:43,812 - logger_File -INFO - Signup button was clicked sucessfully
+2023-08-26 11:40:07,120 - logger_File -INFO - The user is on tek retail website
+2023-08-26 11:40:07,199 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 11:40:07,257 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 11:40:07,514 - logger_File -INFO - User information was entered successfully
+2023-08-26 11:40:07,564 - logger_File -INFO - Signup button was clicked sucessfully
+2023-08-26 11:40:07,932 - logger_File -INFO - User account is created successfully

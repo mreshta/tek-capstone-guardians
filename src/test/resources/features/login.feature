@@ -1,4 +1,4 @@
-@Regression
+#@Regression
 Feature: login
 
   Background: 
@@ -11,7 +11,7 @@ Feature: login
     And User click on login button
     Then User should be logged in into Account
 
-  #@createNewAccount
+  @createNewAccount
   Scenario Outline: Verify user can create an account into Retail Website
     And User click on Create New Account button
     And User enter '<name>' and '<email>' and '<password>' and '<confPassword>'
@@ -20,4 +20,4 @@ Feature: login
 
     Examples: 
       | name    | email            | password  | confPassword |
-      | student | Alpha3@gmail.com | Alpha123$ | Alpha123$    |
+      | studentts | Alpha345@gmail.com | Alpha123$ | Alpha123$    |
