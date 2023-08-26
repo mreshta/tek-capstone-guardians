@@ -1,4 +1,4 @@
-#@Regression
+@Regression
 Feature: login
 
   Background: 
@@ -19,5 +19,5 @@ Feature: login
     Then User should be logged into account page
 
     Examples: 
-      | name    | email            | password  | confPassword |
-      | studentts | Alpha345@gmail.com | Alpha123$ | Alpha123$    |
+      | name      | email               | password  | confPassword |
+      | studentts | Alpha37534@gmail.com | Alpha123$ | Alpha123$    |
