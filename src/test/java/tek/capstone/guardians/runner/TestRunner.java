@@ -8,11 +8,11 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		tags="@login",
+		tags = "@login",
 		features = ("classpath:features"),
-		glue="tek.capstone.guardians",
-		dryRun= false,
-		plugin= {
+		glue = ("tek.capstone.guardians"),
+		dryRun = false,
+		plugin = {
 				"pretty",
 				"html:target/htmlReports/cucumber-pretty.html",
 				"json:target/jsonReports/cucumber.json"

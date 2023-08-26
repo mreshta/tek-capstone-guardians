@@ -13,7 +13,7 @@ import tek.capstone.guardians.config.Browser;
 import tek.capstone.guardians.config.ChromeBrowser;
 import tek.capstone.guardians.config.ChromeHeadless;
 import tek.capstone.guardians.config.EdgeBrowser;
-import tek.capstone.guardians.config.FireFoxBrowser;
+import tek.capstone.guardians.config.FirefoxBrowser;
 import tek.capstone.guardians.utilities.ReadYamlFiles;
 
 public class BaseSetup {
@@ -52,7 +52,7 @@ public class BaseSetup {
             webDriver = browser.openBrowser(url);
             break;
         case "firefox":
-            browser = new FireFoxBrowser();
+            browser = new FirefoxBrowser();
             webDriver = browser.openBrowser(url);
             break;
         case "edge":
@@ -63,8 +63,9 @@ public class BaseSetup {
             throw new RuntimeException("Unknown Browser check environment properties");
         }
         webDriver.manage().window().maximize();
-        webDriver.manage().timeouts().implicitlyWait(Duration.of(20, ChronoUnit.SECONDS));
         webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+        webDriver.manage().timeouts().implicitlyWait(Duration.of(20, ChronoUnit.SECONDS));
+       
 
     }
 
