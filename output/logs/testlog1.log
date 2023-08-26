@@ -642,3 +642,12 @@
 2023-08-26 01:08:49,622 [main] INFO logger_File - The user successfully entred the email and password
 2023-08-26 01:08:49,681 [main] INFO logger_File - the user clicked on the login button successfully
 2023-08-26 01:08:50,019 [main] INFO logger_File - The user is signed in successfully
+2023-08-26 01:16:02,934 [main] INFO logger_File - The user is on tek retail website
+2023-08-26 01:16:03,010 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-26 01:16:03,130 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-26 01:16:03,189 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-26 01:16:03,537 [main] INFO logger_File - The user is signed in successfully
+2023-08-26 01:17:13,413 [main] INFO logger_File - The user is on tek retail website
+2023-08-26 01:17:13,487 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-26 01:17:13,538 [main] INFO logger_File - Create new account bttn clicked successfully
+2023-08-26 01:17:13,762 [main] INFO logger_File - User information was entered successfully
