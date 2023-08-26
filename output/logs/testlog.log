@@ -1192,3 +1192,24 @@
 2023-08-26 13:28:46,499 - logger_File -INFO - Create new account bttn clicked successfully
 2023-08-26 13:28:46,663 - logger_File -INFO - User information was entered successfully
 2023-08-26 13:28:46,902 - logger_File -INFO - Signup button was clicked sucessfully
+2023-08-26 13:33:14,214 - logger_File -INFO - The user is on tek retail website
+2023-08-26 13:33:14,501 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 13:33:14,583 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 13:33:14,826 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 13:33:15,269 - logger_File -INFO - The user is signed in successfully
+2023-08-26 13:33:20,096 - logger_File -INFO - The user is on tek retail website
+2023-08-26 13:33:20,357 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 13:33:20,593 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 13:33:20,754 - logger_File -INFO - User information was entered successfully
+2023-08-26 13:33:20,989 - logger_File -INFO - Signup button was clicked sucessfully
+2023-08-26 13:33:21,146 - logger_File -INFO - User account is created successfully
+2023-08-26 13:33:49,429 - logger_File -INFO - The user is on tek retail website
+2023-08-26 13:33:49,700 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 13:33:49,814 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 13:33:50,056 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 13:33:50,184 - logger_File -INFO - The user is signed in successfully
+2023-08-26 13:33:56,464 - logger_File -INFO - The user is on tek retail website
+2023-08-26 13:33:56,723 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 13:33:56,956 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 13:33:57,118 - logger_File -INFO - User information was entered successfully
+2023-08-26 13:33:57,356 - logger_File -INFO - Signup button was clicked sucessfully
