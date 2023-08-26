@@ -49,7 +49,7 @@ public class LoginPage extends BaseSetup {
 	@FindBy(id = "signupBtn")
 	public WebElement signupBttn;
 	
-	@FindBy(xpath = "//h1[text()='Your Profile']")
+	@FindBy(xpath="//button[text()='Log out']")
 	public WebElement yourProfileText;
 	
 	

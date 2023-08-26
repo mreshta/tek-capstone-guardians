@@ -1,5 +1,8 @@
 package tek.capstone.guardians.steps;
 
+import java.util.List;
+import java.util.Map;
+
 import org.junit.Assert;
 
 import io.cucumber.java.en.Given;
@@ -7,11 +10,12 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import tek.capstone.guardians.pages.POMFactory;
 import tek.capstone.guardians.utilities.CommonUtility;
+import tek.capstone.guardians.utilities.DataGenerator;
 
 public class LoginSteps extends CommonUtility{
 
 	POMFactory pomFactory=new POMFactory();
-	
+	private String randomEmail;
 	@Given("User is on retail website")
 	public void userIsOnRetailWebsite() {
 	Assert.assertTrue(pomFactory.homePage().tekschoolLogo.isDisplayed());
@@ -46,22 +50,38 @@ public class LoginSteps extends CommonUtility{
 		click(pomFactory.loginPage().newAccountBttn);
 		logger.info("Create new account bttn clicked successfully");    
 	}
-	@When("User enter {string} and {string} and {string} and {string}")
-	public void userFillTheSignUpInformationWithBelowData(String name, String email, String password, String confPassword) {
-		sendText(pomFactory.loginPage().nameInputField, name);
-		sendText(pomFactory.loginPage().emailInputField, email);
-		sendText(pomFactory.loginPage().passwordInputField, password);
-		sendText(pomFactory.loginPage().confirmPassInputField, confPassword);
-		logger.info("User information was entered successfully");
+	@When("User fill the signUp information with below data")
+	public void userFillTheSignUpInformationWithBelowData(io.cucumber.datatable.DataTable dataTable) {
+		
+		
+		randomEmail = DataGenerator.getEmail();
+        List<Map<String, String>> signUpDetails = dataTable.asMaps(String.class, String.class);
+
+       
+        Map<String, String> data = signUpDetails.get(0);
+
+        String name = data.get("name");
+        String email = randomEmail;
+        String password = data.get("password");
+        String confirmPassword = data.get("confirmPassword");
+        
+        //sendText(pomFactory.retailAccountPage().cardNumberField, paymentInfo.get(0).get("cardNumber"));
+        
+        sendText(pomFactory.loginPage().nameInputField, name);
+        sendText(pomFactory.loginPage().emailInputField, email);
+        sendText(pomFactory.loginPage().passwordInputField, password);
+        sendText(pomFactory.loginPage().confirmPassInputField, confirmPassword);
+        
+        
 	}
 	@When("User click on SignUp button")
 	public void userClickOnSignUpButton() {
 		click(pomFactory.loginPage().signupBttn);
         logger.info("Signup button was clicked sucessfully");
 	}
-	@Then("User should be logged into account page")
+	@Then("Verify user account is created")
 	public void userShouldBeLoggedIntoAccountPage() {
-		Assert.assertTrue(pomFactory.loginPage().yourProfileText.isDisplayed());
+		Assert.assertTrue(pomFactory.loginPage().logoutBttn.isDisplayed());
         logger.info("User account is created successfully");
 }
 	

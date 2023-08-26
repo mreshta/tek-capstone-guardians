@@ -12,12 +12,10 @@ Feature: login
     Then User should be logged in into Account
 
   @createNewAccount
-  Scenario Outline: Verify user can create an account into Retail Website
+  Scenario: Verify user can create an account into Retail Website
     And User click on Create New Account button
-    And User enter '<name>' and '<email>' and '<password>' and '<confPassword>'
+    And User fill the signUp information with below data
+      | name    | email                 | password     | confirmPassword |
+      | mohamed | mohamed2009@gmail.com | Mohamed1991@ | Mohamed1991@    |
     And User click on SignUp button
-    Then User should be logged into account page
-
-    Examples: 
-      | name      | email               | password  | confPassword |
-      | studentts | Alpha2221235349@gmail.com | Alpha123$ | Alpha123$    |
+    Then Verify user account is created

@@ -51,4 +51,24 @@ public class DataGenerator {
 		return phoneNumber;
 
 	}
+	 public static String getEmail() {
+			String prefix = "Mohamed";
+			String provider = "@tekschool.us";		
+			int random = (int) (Math.random() * 10000);
+			String email = prefix + random + provider; 
+			return email;
+		}
+	 public static String RandomPhoneNumber() {
+	        String phoneNumber = "";
+
+	        int areaCode = (int) (Math.random() * 800) + 200; // Generate area code between 200 and 999
+	        phoneNumber += areaCode;
+
+	        for (int i = 0; i < 7; i++) { // 3 area code + 7 phone number
+	            int phoneNumberDigit = (int) (Math.random() * 10);
+	            phoneNumber += phoneNumberDigit;
+	        }
+
+	        return phoneNumber;
+	    }
 }
