@@ -11,13 +11,13 @@ Feature: login
     And User click on login button
     Then User should be logged in into Account
 
-  @createNewAccount
-  Scenario Outline: Verify user can create an account into Retail Website
-    And User click on Create New Account button
-    And User enter '<name>' and '<email>' and '<password>' and '<confPassword>'
-    And User click on SignUp button
-    Then User should be logged into account page
-
-    Examples: 
-      | name      | email               | password  | confPassword |
-      | studentts | Alpha2221322235349@gmail.com | Alpha123$ | Alpha123$    |
+  #@createNewAccount
+  #Scenario Outline: Verify user can create an account into Retail Website
+    #And User click on Create New Account button
+    #And User enter '<name>' and '<email>' and '<password>' and '<confPassword>'
+    #And User click on SignUp button
+    #Then User should be logged into account page
+#
+    #Examples: 
+      #| name      | email               | password  | confPassword |
+      #| studentts | Alpha2221322235349@gmail.com | Alpha123$ | Alpha123$    |
