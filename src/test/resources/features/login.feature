@@ -20,4 +20,4 @@ Feature: login
 
     Examples: 
       | name      | email               | password  | confPassword |
-      | studentts | Alpha2221235349@gmail.com | Alpha123$ | Alpha123$    |
+      | studentts | Alpha2221322235349@gmail.com | Alpha123$ | Alpha123$    |
