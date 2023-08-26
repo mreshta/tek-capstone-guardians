@@ -874,3 +874,151 @@
 2023-08-26 01:45:19,468 - logger_File -INFO - the user clicked on account option
 2023-08-26 01:45:19,923 - logger_File -INFO - The remove button was clicked successfully
 2023-08-26 01:45:19,940 - logger_File -INFO - The address was removed successfully
+2023-08-26 01:51:30,427 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:51:30,503 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:51:30,624 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:51:30,676 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:51:31,031 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:51:32,888 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:51:32,954 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:51:33,006 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 01:51:33,223 - logger_File -INFO - User information was entered successfully
+2023-08-26 01:51:35,285 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:51:35,351 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:51:35,467 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:51:35,515 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:51:35,829 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:51:35,911 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:51:36,091 - logger_File -INFO - The name and phone fields were filled successfully
+2023-08-26 01:51:36,139 - logger_File -INFO - the update button was clicked successfully
+2023-08-26 01:51:36,966 - logger_File -INFO - The user profile information updated successfully
+2023-08-26 01:51:38,872 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:51:38,935 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:51:39,047 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:51:39,095 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:51:39,448 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:51:39,528 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:51:39,577 - logger_File -INFO - The add payment button was clicked successfully
+2023-08-26 01:51:39,821 - logger_File -INFO - The information was filled successfully
+2023-08-26 01:51:39,870 - logger_File -INFO - The user clicked on the add to your card button successfully
+2023-08-26 01:51:41,964 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:51:42,026 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:51:42,139 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:51:42,185 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:51:42,515 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:51:42,593 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:51:43,044 - logger_File -INFO - User clicked on the edit option successfully
+2023-08-26 01:51:43,098 - logger_File -INFO - User clicked on the edit bttn successfully
+2023-08-26 01:51:43,526 - logger_File -INFO - The infromation was filled successfully
+2023-08-26 01:51:43,571 - logger_File -INFO - The update button was clicked successfully
+2023-08-26 01:51:44,372 - logger_File -INFO - The information was updated successfully
+2023-08-26 01:51:46,302 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:51:46,363 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:51:46,474 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:51:46,519 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:51:46,854 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:51:46,933 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:51:47,381 - logger_File -INFO - the card was clicked successfully
+2023-08-26 01:51:47,434 - logger_File -INFO - User clicked on the remove card option successfully
+2023-08-26 01:51:47,448 - logger_File -INFO - The payement method was removed
+2023-08-26 01:51:49,443 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:51:49,504 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:51:49,617 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:51:49,662 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:51:50,001 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:51:50,080 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:51:50,145 - logger_File -INFO - User clicked on Add address button successfully
+2023-08-26 01:51:50,800 - logger_File -INFO - The address information were filled successfully
+2023-08-26 01:51:50,846 - logger_File -INFO - The user clicked on add your address button successfully
+2023-08-26 01:51:51,619 - logger_File -INFO - The address was added successfully
+2023-08-26 01:51:53,648 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:51:53,709 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:51:53,820 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:51:53,865 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:51:54,220 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:51:54,293 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:51:54,776 - logger_File -INFO - User clicked on Edit button successfully
+2023-08-26 01:51:55,426 - logger_File -INFO - User filled the new address form successfully
+2023-08-26 01:51:55,471 - logger_File -INFO - The user clicked on update your address button successfully
+2023-08-26 01:51:56,222 - logger_File -INFO - The address update message was displayed succeessfully
+2023-08-26 01:51:58,003 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:51:58,063 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:51:58,174 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:51:58,217 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:51:58,561 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:51:58,638 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:51:59,271 - logger_File -INFO - The remove button was clicked successfully
+2023-08-26 01:51:59,286 - logger_File -INFO - The address was removed successfully
+2023-08-26 01:52:08,410 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:52:08,485 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:52:08,611 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:52:08,663 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:52:09,353 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:52:11,417 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:52:11,485 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:52:11,534 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 01:52:11,750 - logger_File -INFO - User information was entered successfully
+2023-08-26 01:52:13,749 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:52:13,815 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:52:13,930 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:52:13,979 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:52:14,337 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:52:14,422 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:52:14,600 - logger_File -INFO - The name and phone fields were filled successfully
+2023-08-26 01:52:37,141 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:52:37,202 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:52:37,312 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:52:37,357 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:52:37,702 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:52:37,779 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:52:37,825 - logger_File -INFO - The add payment button was clicked successfully
+2023-08-26 01:52:38,058 - logger_File -INFO - The information was filled successfully
+2023-08-26 01:52:38,102 - logger_File -INFO - The user clicked on the add to your card button successfully
+2023-08-26 01:52:39,923 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:52:39,985 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:52:40,102 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:52:40,146 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:52:40,456 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:52:40,531 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:52:41,182 - logger_File -INFO - User clicked on the edit option successfully
+2023-08-26 01:52:41,231 - logger_File -INFO - User clicked on the edit bttn successfully
+2023-08-26 01:52:41,659 - logger_File -INFO - The infromation was filled successfully
+2023-08-26 01:52:41,704 - logger_File -INFO - The update button was clicked successfully
+2023-08-26 01:52:42,525 - logger_File -INFO - The information was updated successfully
+2023-08-26 01:52:44,451 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:52:44,511 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:52:44,618 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:52:44,662 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:52:45,009 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:52:45,104 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:52:45,556 - logger_File -INFO - the card was clicked successfully
+2023-08-26 01:52:45,605 - logger_File -INFO - User clicked on the remove card option successfully
+2023-08-26 01:52:45,617 - logger_File -INFO - The payement method was removed
+2023-08-26 01:52:47,579 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:52:47,642 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:52:47,751 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:52:47,798 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:52:48,137 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:52:48,211 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:52:48,273 - logger_File -INFO - User clicked on Add address button successfully
+2023-08-26 01:52:48,940 - logger_File -INFO - The address information were filled successfully
+2023-08-26 01:52:48,987 - logger_File -INFO - The user clicked on add your address button successfully
+2023-08-26 01:52:49,725 - logger_File -INFO - The address was added successfully
+2023-08-26 01:52:52,018 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:52:52,078 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:52:52,186 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:52:52,228 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:52:52,568 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:52:52,640 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:52:53,332 - logger_File -INFO - User clicked on Edit button successfully
+2023-08-26 01:52:53,944 - logger_File -INFO - User filled the new address form successfully
+2023-08-26 01:52:53,988 - logger_File -INFO - The user clicked on update your address button successfully
+2023-08-26 01:52:54,764 - logger_File -INFO - The address update message was displayed succeessfully
+2023-08-26 01:52:56,748 - logger_File -INFO - The user is on tek retail website
+2023-08-26 01:52:56,808 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 01:52:56,916 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 01:52:56,959 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 01:52:57,374 - logger_File -INFO - The user is signed in successfully
+2023-08-26 01:52:57,448 - logger_File -INFO - the user clicked on account option
+2023-08-26 01:52:57,877 - logger_File -INFO - The remove button was clicked successfully
+2023-08-26 01:52:57,892 - logger_File -INFO - The address was removed successfully
