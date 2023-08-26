@@ -5,13 +5,13 @@ Feature: login
     Given User is on retail website
     When User click on Sign in option
 
-  #@login
+  @login
   Scenario: Verify user can sign in into Retail Application
     And User enter email 'Alpha3@gmail.com' and password 'Alpha123$'
     And User click on login button
     Then User should be logged in into Account
 
-  #@createNewAccount
+  @createNewAccount
   Scenario Outline: Verify user can create an account into Retail Website
     And User click on Create New Account button
     And User enter '<name>' and '<email>' and '<password>' and '<confPassword>'
@@ -20,4 +20,4 @@ Feature: login
 
     Examples: 
       | name      | email               | password  | confPassword |
-      | studentts | Alpha1237534@gmail.com | Alpha123$ | Alpha123$    |
+      | studentts | Alpha122745349@gmail.com | Alpha123$ | Alpha123$    |

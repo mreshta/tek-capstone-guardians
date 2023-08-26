@@ -7,7 +7,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ChromeHeadless implements Browser{
 
-	@Override
+
 	public WebDriver openBrowser(String url) {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();

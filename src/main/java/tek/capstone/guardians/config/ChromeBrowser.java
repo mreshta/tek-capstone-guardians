@@ -7,7 +7,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ChromeBrowser implements Browser {
 
-	@Override
+
 	public WebDriver openBrowser(String url) {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver= new ChromeDriver();
