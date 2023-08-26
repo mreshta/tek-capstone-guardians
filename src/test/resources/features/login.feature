@@ -5,7 +5,7 @@ Feature: login
     Given User is on retail website
     When User click on Sign in option
 
-  #@login
+  @login
   Scenario: Verify user can sign in into Retail Application
     And User enter email 'Alpha3@gmail.com' and password 'Alpha123$'
     And User click on login button
