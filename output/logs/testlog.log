@@ -1213,3 +1213,14 @@
 2023-08-26 13:33:56,956 - logger_File -INFO - Create new account bttn clicked successfully
 2023-08-26 13:33:57,118 - logger_File -INFO - User information was entered successfully
 2023-08-26 13:33:57,356 - logger_File -INFO - Signup button was clicked sucessfully
+2023-08-26 14:03:33,335 - logger_File -INFO - The user is on tek retail website
+2023-08-26 14:03:33,410 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 14:03:33,532 - logger_File -INFO - The user successfully entred the email and password
+2023-08-26 14:03:33,582 - logger_File -INFO - the user clicked on the login button successfully
+2023-08-26 14:03:33,890 - logger_File -INFO - The user is signed in successfully
+2023-08-26 14:03:36,010 - logger_File -INFO - The user is on tek retail website
+2023-08-26 14:03:36,077 - logger_File -INFO - The User clicked on signIn button successfully
+2023-08-26 14:03:36,129 - logger_File -INFO - Create new account bttn clicked successfully
+2023-08-26 14:03:36,432 - logger_File -INFO - User information was entered successfully
+2023-08-26 14:03:36,484 - logger_File -INFO - Signup button was clicked sucessfully
+2023-08-26 14:03:36,880 - logger_File -INFO - User account is created successfully
