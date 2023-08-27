@@ -1,4 +1,4 @@
-@Regression
+@Smoke
 Feature: login
 
   Background: 
@@ -15,7 +15,7 @@ Feature: login
   Scenario: Verify user can create an account into Retail Website
     And User click on Create New Account button
     And User fill the signUp information with below data
-      | name    | email                 | password     | confirmPassword |
-      | mohamed | mohamed2009@gmail.com | Mohamed1991@ | Mohamed1991@    |
+      | name  | email           | password    | confirmPassword |
+      | Ahmad | Alpha@gmail.com | Ahmad44556@ | Ahmad44556@     |
     And User click on SignUp button
     Then Verify user account is created

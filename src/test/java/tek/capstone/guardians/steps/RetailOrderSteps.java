@@ -1,6 +1,10 @@
 package tek.capstone.guardians.steps;
 
+import java.util.List;
+
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
+
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import tek.capstone.guardians.pages.POMFactory;
@@ -51,8 +55,24 @@ public class RetailOrderSteps extends CommonUtility {
 	public void theCartIconQuantityShouldChangeTo(String itemsOnCart) {
 		Assert.assertEquals(itemsOnCart, pomFactory.retailOrderPage().numberOfItemsOnCart.getText());
 		logger.info("The number of the items in the cart is equal to the expected quantity successfully");
-
+		
 	}
+	
+	@Then("User cleans the cart before moving on")
+	public void userCleansTheCartBeforeMovingOn() throws InterruptedException {
+		
+		click(pomFactory.retailOrderPage().cart);
+		List<WebElement> empty = pomFactory.retailOrderPage().emptycart;
+		
+		for(WebElement emp : empty) {
+			click(emp);
+		
+
+		}
+		Thread.sleep(2000);
+		logger.info("The cart is emptied for the next test");
+	}
+	
 // User Place Order
 
 	@When("User change the category to {string} Apex Legends")
@@ -82,8 +102,8 @@ public class RetailOrderSteps extends CommonUtility {
 
 	@Then("the cart icon quantity should change to {string} Apex Legends")
 	public void theCartIconQuantityShouldChangeToApexLegends(String apexCartQTY) {
-		Assert.assertEquals(pomFactory.retailOrderPage().cartQTYApex.getText(), apexCartQTY);
-		logger.info("The cart cart quantity chanded Successfully");
+		Assert.assertEquals(pomFactory.retailOrderPage().numberOfItemsOnCart.getText(), apexCartQTY);
+		logger.info("The cart quantity chanded Successfully");
 	}
 
 	@Then("User click on Cart option")
@@ -169,8 +189,19 @@ public class RetailOrderSteps extends CommonUtility {
 
 	@When("User click on first order in list on page")
 	public void userClickOnFirstOrderInListOnPage() {
-		click(pomFactory.retailOrderPage().firstOrderReturn);
-		logger.info("User click on first order successfully");
+		List<WebElement> listOfOrder = pomFactory.retailOrderPage().firstOrderReturn;
+		for(int i = 0; i < listOfOrder.size(); i++) {
+			if(listOfOrder.get(i).getText().equalsIgnoreCase("Hide Details")) {
+				
+			}else if(listOfOrder.get(i).getText().equalsIgnoreCase("Show Details")) {
+				click(pomFactory.retailOrderPage().firstOrderReturn.get(i));
+			}
+		}
+		logger.info("First order in the list of clicked");
+		
+	
+//		click(pomFactory.retailOrderPage().firstOrderReturn);
+//		logger.info("User click on first order successfully");
 	}
 
 	@When("User click on Return Items button")

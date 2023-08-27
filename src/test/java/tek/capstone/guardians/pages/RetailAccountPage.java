@@ -25,8 +25,8 @@ public class RetailAccountPage extends BaseSetup{
 	@FindBy(id="personalUpdateBtn")
 	public WebElement updateBttn;
 	
-	@FindBy(xpath="//div[text()='Personal Information Updated Successfully']")
-	public WebElement updateMssg;
+	@FindBy(xpath = "//div[text()='Personal Information Updated Successfully']")
+	public WebElement UpdateMsg;
 	
 	
 //	@userAddPaymentMethod
@@ -52,13 +52,16 @@ public class RetailAccountPage extends BaseSetup{
 	@FindBy(id="paymentSubmitBtn")
 	public WebElement payementSubmitBttn;
 	
-	@FindBy(xpath="//div[text()='Payment Method added sucessfully'] ")
+	@FindBy(xpath="//div[text()='Payment Method added sucessfully']")
 	public WebElement paymentMethodSuccessMssg;
 	
 	
 //	user edit payment Information
 	
-	@FindBy(xpath="//div[@class='account__payment-sub']//p[text()='Master Card']")
+	@FindBy(className = "account__payment-sub-title")
+    public WebElement clickOnCardfirst;
+	
+	@FindBy(xpath="//div[@class= 'flex gap-2 py-2']//button[1]")
 	public WebElement paymenteditBttn;
 	
 	@FindBy(xpath="//button[@class='text-blue-800 cursor-pointer hover:underline' and text()='Edit']")
@@ -72,15 +75,16 @@ public class RetailAccountPage extends BaseSetup{
 	
 //	remove Card
 	
-	@FindBy(xpath="//p[text()='American Express']")
-	public WebElement cardOption;
+	 @FindBy(className = "account__payment-sub-title")
+	 public WebElement clickOnCard;
 	
 	@FindBy(xpath="//button[text()='remove']")
 	public WebElement removeCard;
 	
-	@FindBy(xpath="//p[text()='American Express']")
-	public WebElement cardRemoved;
-	
+//	@FindBy(xpath="//p[text()='American Express']")
+//	public WebElement cardRemoved;
+//	@FindBy(className="account__payment-selected account__payment-item")
+//	public WebElement cardRemoved;
 	
 //	user add address
 	
@@ -134,10 +138,10 @@ public class RetailAccountPage extends BaseSetup{
 	
 //	Remove the address
 	
-	@FindBy(xpath="//button[text()='Remove']")
+	@FindBy(xpath="//button[@class='account__address-btn' and text()='Remove']")
 	public WebElement removeBttn;
 	
-	@FindBy(xpath="//div[@class='account__address-single'] ")
+	@FindBy(xpath="//div[@class='account__address-single']")
 	public WebElement addressRemovedConfirm;
 	
 }

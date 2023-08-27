@@ -1,5 +1,7 @@
 package tek.capstone.guardians.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -54,7 +56,11 @@ public class RetailOrderPage extends BaseSetup{
 	@FindBy(xpath="//span[@id='cartQuantity']")
 	public WebElement numberOfItemsOnCart;
 	
+	@FindBy(xpath = "//p[text() ='Cart ']")
+	public WebElement cart;
 	
+	@FindBy(xpath = "//span[text()='Delete']")
+	public List<WebElement> emptycart;
 	
 //	Apex Legend order and checkout and place order
 	
@@ -76,8 +82,8 @@ public class RetailOrderPage extends BaseSetup{
 	@FindBy(xpath="//span[text()='Add to Cart']")
 	public WebElement addToCartBttnApex;
 	
-	@FindBy(id="cartQuantity")
-	public WebElement cartQTYApex;
+//	@FindBy(id="cartQuantity")
+//	public WebElement cartQTYApex;
 	
 	@FindBy(id="cartBtn")
 	public WebElement cartBttnApex;
@@ -118,8 +124,9 @@ public class RetailOrderPage extends BaseSetup{
 	@FindBy(linkText="Orders")
 	public WebElement ordersBttnReturn;
 	
-	@FindBy(xpath="(//p[text()='Show Details'])[1]")
-	public WebElement firstOrderReturn;
+//	@FindBy(xpath="(//p[text()='Show Details'])[1]")
+	@FindBy(xpath = "//div[@class='order']//descendant::p[7]")
+	public List<WebElement> firstOrderReturn;
 	
 	@FindBy(id="returnBtn")
 	public WebElement returnOrderBttn;

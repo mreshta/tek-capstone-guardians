@@ -1,4 +1,4 @@
-#@Smoke
+@Smoke
 Feature: Order Page
 
   Background: 
@@ -17,6 +17,7 @@ Feature: Order Page
     And User select quantity '2'
     And User click add to Cart button
     Then the cart icon quantity should change to '2'
+    And User cleans the cart before moving on
 
   @userPlaceOrder
   Scenario: Verify User can place an order with Shipping address and payment Method on file

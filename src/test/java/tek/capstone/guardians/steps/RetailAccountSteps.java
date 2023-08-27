@@ -6,6 +6,7 @@ import java.util.Map;
 import org.junit.Assert;
 
 import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import tek.capstone.guardians.pages.POMFactory;
@@ -15,7 +16,8 @@ import tek.capstone.guardians.utilities.DataGenerator;
 public class RetailAccountSteps extends CommonUtility {
 
 	POMFactory pomFactory = new POMFactory();
-
+	private String randomPhone;
+	private String randomInfo;
 //	@userInfoUpdate
 
 	@When("User click on Account option")
@@ -24,14 +26,26 @@ public class RetailAccountSteps extends CommonUtility {
 		logger.info("the user clicked on account option");
 	}
 
-	@When("User update Name {string} and Phone {string}")
+	
+@When("User update Name {string} and Phone {string}")
+	
 	public void userUpdateNameAndPhone(String name, String phone) {
-		clearTextUsingSendKeys(pomFactory.retailAccountPage().nameField);
-		sendText(pomFactory.retailAccountPage().nameField, name);
-		clearTextUsingSendKeys(pomFactory.retailAccountPage().phoneInput);
-		sendText(pomFactory.retailAccountPage().phoneInput, phone);
-		logger.info("The name and phone fields were filled successfully");
+		 randomPhone = DataGenerator.RandomPhoneNumber();
+		 clearTextUsingSendKeys(pomFactory.retailAccountPage().nameField);
+		 sendText(pomFactory.retailAccountPage().nameField,name);
+		 clearTextUsingSendKeys(pomFactory.retailAccountPage().phoneInput);
+		 sendText(pomFactory.retailAccountPage().phoneInput,randomPhone);
+		 
+	    
 	}
+//	@When("User update Name {string} and Phone {string}")
+//	public void userUpdateNameAndPhone(String name, String phone) {
+//		clearTextUsingSendKeys(pomFactory.retailAccountPage().nameField);
+//		sendText(pomFactory.retailAccountPage().nameField, name);
+//		clearTextUsingSendKeys(pomFactory.retailAccountPage().phoneInput);
+//		sendText(pomFactory.retailAccountPage().phoneInput, phone);
+//		logger.info("The name and phone fields were filled successfully");
+//	}
 
 	@When("User click on Update button")
 	public void userClickOnUpdateButton() {
@@ -41,29 +55,35 @@ public class RetailAccountSteps extends CommonUtility {
 
 	@Then("user profile information should be updated")
 	public void userProfileInformationShouldBeUpdated() {
-		waitTillPresence(pomFactory.retailAccountPage().updateMssg);
-		String expectedMssg = "Personal Information Updated Successfully";
-		String actualMssg = pomFactory.retailAccountPage().updateMssg.getText();
-		Assert.assertEquals(expectedMssg, actualMssg);
-		logger.info("The user profile information updated successfully");
+		waitTillPresence(pomFactory.retailAccountPage().UpdateMsg);
+		String expectedMessage = "Personal Information Updated Successfully";
+		String acctualMessage = pomFactory.retailAccountPage().UpdateMsg.getText();
+		
+		Assert.assertEquals(expectedMessage,acctualMessage);
+		logger.info("Account Information Updated Successfully");
+	
+	    
 	}
 
 //	@userAddPaymentMethod
 
 	@When("User click on Add a payment method link")
 	public void userClickOnAddAPaymentMethodLink() {
+		
 		click(pomFactory.retailAccountPage().addPaymentBttn);
 		logger.info("The add payment button was clicked successfully");
 	}
-
+	
+	
 	@When("User fill Debit or credit card information")
 	public void userFillDebitOrCreditCardInformation(DataTable dataTable) {
 
+		randomInfo = DataGenerator.cardNumber();
 		List<Map<String, String>> cardAllInfo = dataTable.asMaps(String.class, String.class);
-		sendText(pomFactory.retailAccountPage().cardNumber, cardAllInfo.get(0).get("cardNumber"));
+		sendText(pomFactory.retailAccountPage().cardNumber, randomInfo);
 		sendText(pomFactory.retailAccountPage().nameOnCard, cardAllInfo.get(0).get("nameOnCard"));
-		sendText(pomFactory.retailAccountPage().expirationMonthInput, cardAllInfo.get(0).get("expirationMonth"));
-		sendText(pomFactory.retailAccountPage().expiratoinYear, cardAllInfo.get(0).get("expirationYear"));
+		selectByVisibleText(pomFactory.retailAccountPage().expirationMonthInput, cardAllInfo.get(0).get("expirationMonth"));
+		selectByVisibleText(pomFactory.retailAccountPage().expiratoinYear, cardAllInfo.get(0).get("expirationYear"));
 		sendText(pomFactory.retailAccountPage().securityCodeInput, cardAllInfo.get(0).get("securityCode"));
 
 		logger.info("The information was filled successfully");
@@ -71,9 +91,11 @@ public class RetailAccountSteps extends CommonUtility {
 	}
 
 	@When("User click on Add your card button")
-	public void userClickOnAddYourCardButton() {
+	public void userClickOnAddYourCardButton() throws InterruptedException {
 		click(pomFactory.retailAccountPage().payementSubmitBttn);
 		logger.info("The user clicked on the add to your card button successfully");
+		waitTillPresence(pomFactory.retailAccountPage().clickOnCardfirst);
+		logger.info("The card is present");		
 	}
 
 	@Then("a message should be displayed {string}")
@@ -101,11 +123,12 @@ public class RetailAccountSteps extends CommonUtility {
 		}
 	}
 
-//	edit payment method
+//	userUpdatesTheCreditDebitCard
 
 	@When("User click on Edit option of card section")
 	public void userClickOnEditOptionOfCardSection() {
-		click(pomFactory.retailAccountPage().paymenteditBttn);
+		click(pomFactory.retailAccountPage().clickOnCardfirst);
+//		click(pomFactory.retailAccountPage().paymenteditBttn);
 		logger.info("User clicked on the edit option successfully");
 	}
 
@@ -113,15 +136,23 @@ public class RetailAccountSteps extends CommonUtility {
 	public void userEditInformationWithBelowData(DataTable dataTable) {
 		click(pomFactory.retailAccountPage().editBttn);
 		logger.info("User clicked on the edit bttn successfully");
+		
+		randomInfo = DataGenerator.cardNumber();
+		
 		List<Map<String, String>> Editfields = dataTable.asMaps(String.class, String.class);
+		
 		clearTextUsingSendKeys(pomFactory.retailAccountPage().cardNumber);
-		sendText(pomFactory.retailAccountPage().cardNumber, Editfields.get(0).get("cardNumber"));
+		sendText(pomFactory.retailAccountPage().cardNumber, randomInfo);
+		
 		clearTextUsingSendKeys(pomFactory.retailAccountPage().nameOnCard);
 		sendText(pomFactory.retailAccountPage().nameOnCard, Editfields.get(0).get("nameOnCard"));
+		
 		clearTextUsingSendKeys(pomFactory.retailAccountPage().expirationMonthInput);
 		sendText(pomFactory.retailAccountPage().expirationMonthInput, Editfields.get(0).get("expirationMonth"));
+		
 		clearTextUsingSendKeys(pomFactory.retailAccountPage().expiratoinYear);
 		sendText(pomFactory.retailAccountPage().expiratoinYear, Editfields.get(0).get("expirationYear"));
+		
 		clearTextUsingSendKeys(pomFactory.retailAccountPage().securityCodeInput);
 		sendText(pomFactory.retailAccountPage().securityCodeInput, Editfields.get(0).get("securityCode"));
 		logger.info("The infromation was filled successfully");
@@ -138,7 +169,7 @@ public class RetailAccountSteps extends CommonUtility {
 
 	@When("User click on selected card")
 	public void userClickOnSelectedCard() {
-		click(pomFactory.retailAccountPage().cardOption);
+		click(pomFactory.retailAccountPage().clickOnCard);
 		logger.info("the card was clicked successfully");
 
 	}
@@ -150,14 +181,14 @@ public class RetailAccountSteps extends CommonUtility {
 
 	}
 
-	@Then("payment details should be removed")
-	public void paymentDetailsShouldBeRemoved() {
-
-		if (!isElementDisplayed(pomFactory.retailAccountPage().cardRemoved))
-			;
-		logger.info("The payement method was removed");
-
-	}
+//	@Then("payment details should be removed")
+//	public void paymentDetailsShouldBeRemoved() {
+//
+//		if (!isElementDisplayed(pomFactory.retailAccountPage().cardRemoved));
+//		
+//		logger.info("The payement method was removed");
+//
+//	}
 
 //	Add address 
 
@@ -251,8 +282,9 @@ public class RetailAccountSteps extends CommonUtility {
 
 	@Then("Address details should be removed")
 	public void addressDetailsShouldBeRemoved() {
-	if(!isElementDisplayed(pomFactory.retailAccountPage().addressRemovedConfirm));
+	if(!isElementDisplayed(pomFactory.retailAccountPage().removeBttn));
 	logger.info("The address was removed successfully");
+
 	}
 
 }
