@@ -97,6 +97,10 @@ public class RetailOrderPage extends BaseSetup{
 	@FindBy(xpath="//p[text()='Order Placed, Thanks']")
 	public WebElement orderPlacedMssg;
 	
+//	a step to add an extra item for other steps to succeed
+	@FindBy(xpath="//img[@alt='Amazon Fire TV ']")
+	public WebElement AmazonFireTV;
+	
 	
 //	userCancelTheOrder
 	

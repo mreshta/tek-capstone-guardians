@@ -55,24 +55,23 @@ public class RetailOrderSteps extends CommonUtility {
 	public void theCartIconQuantityShouldChangeTo(String itemsOnCart) {
 		Assert.assertEquals(itemsOnCart, pomFactory.retailOrderPage().numberOfItemsOnCart.getText());
 		logger.info("The number of the items in the cart is equal to the expected quantity successfully");
-		
+
 	}
-	
+
 	@Then("User cleans the cart before moving on")
 	public void userCleansTheCartBeforeMovingOn() throws InterruptedException {
-		
+
 		click(pomFactory.retailOrderPage().cart);
 		List<WebElement> empty = pomFactory.retailOrderPage().emptycart;
-		
-		for(WebElement emp : empty) {
+
+		for (WebElement emp : empty) {
 			click(emp);
-		
 
 		}
 		Thread.sleep(2000);
 		logger.info("The cart is emptied for the next test");
 	}
-	
+
 // User Place Order
 
 	@When("User change the category to {string} Apex Legends")
@@ -130,7 +129,22 @@ public class RetailOrderSteps extends CommonUtility {
 		waitTillPresence(pomFactory.retailOrderPage().orderPlacedMssg);
 		Assert.assertEquals(mssgDisplayed, pomFactory.retailOrderPage().orderPlacedMssg.getText());
 		logger.info("The message was displayed Successfully");
-		
+
+	}
+
+//	extra steps for test to run all the time
+
+	@Then("User search for item named {string}")
+	public void userSearchForItemNamed(String amazonTV) {
+		sendText(pomFactory.retailOrderPage().searchInputApex, amazonTV);
+		logger.info("User search for an item Apex Legend Successfully");
+
+	}
+
+	@Then("User click on item AmazonTV")
+	public void userClickOnItemAmazonTV() {
+		click(pomFactory.retailOrderPage().AmazonFireTV);
+		logger.info("User clicked on Apex Legend item Successfully");
 	}
 
 //	Cancel Order Message
@@ -168,14 +182,14 @@ public class RetailOrderSteps extends CommonUtility {
 
 	@Then("a cancelation message should be displayed {string}")
 	public void aCancelationMessageShouldBeDisplayed(String mssgDisplayed) {
-	 if (mssgDisplayed.contains("Your Order Has Been Cancelled")) {
-		 waitTillPresence(pomFactory.retailOrderPage().cancelMssg);
-		Assert.assertEquals(pomFactory.retailOrderPage().cancelMssg.getText(), mssgDisplayed);
-		logger.info("a cancelation message was displayed successfully");
-	} else if (mssgDisplayed.contains("Return was successful")) {
-		waitTillPresence(pomFactory.retailOrderPage().returnSuccessMssg);
-		Assert.assertEquals(pomFactory.retailOrderPage().returnSuccessMssg.getText(), mssgDisplayed);
-		logger.info("The return message was displayed successfully");
+		if (mssgDisplayed.contains("Your Order Has Been Cancelled")) {
+			waitTillPresence(pomFactory.retailOrderPage().cancelMssg);
+			Assert.assertEquals(pomFactory.retailOrderPage().cancelMssg.getText(), mssgDisplayed);
+			logger.info("a cancelation message was displayed successfully");
+		} else if (mssgDisplayed.contains("Return was successful")) {
+			waitTillPresence(pomFactory.retailOrderPage().returnSuccessMssg);
+			Assert.assertEquals(pomFactory.retailOrderPage().returnSuccessMssg.getText(), mssgDisplayed);
+			logger.info("The return message was displayed successfully");
 		}
 	}
 
@@ -190,16 +204,15 @@ public class RetailOrderSteps extends CommonUtility {
 	@When("User click on first order in list on page")
 	public void userClickOnFirstOrderInListOnPage() {
 		List<WebElement> listOfOrder = pomFactory.retailOrderPage().firstOrderReturn;
-		for(int i = 0; i < listOfOrder.size(); i++) {
-			if(listOfOrder.get(i).getText().equalsIgnoreCase("Hide Details")) {
-				
-			}else if(listOfOrder.get(i).getText().equalsIgnoreCase("Show Details")) {
+		for (int i = 0; i < listOfOrder.size(); i++) {
+			if (listOfOrder.get(i).getText().equalsIgnoreCase("Hide Details")) {
+
+			} else if (listOfOrder.get(i).getText().equalsIgnoreCase("Show Details")) {
 				click(pomFactory.retailOrderPage().firstOrderReturn.get(i));
 			}
 		}
 		logger.info("First order in the list of clicked");
-		
-	
+
 //		click(pomFactory.retailOrderPage().firstOrderReturn);
 //		logger.info("User click on first order successfully");
 	}
@@ -229,43 +242,46 @@ public class RetailOrderSteps extends CommonUtility {
 	}
 
 //	user adds a review 
-	
+
 	@When("User click on Orders section on home")
 	public void userClickOnOrdersSectionOnHome() {
-	click(pomFactory.retailOrderPage().ordersReview);
-	logger.info("user clicked on the orders section successfully");
-		
+		click(pomFactory.retailOrderPage().ordersReview);
+		logger.info("user clicked on the orders section successfully");
+
 	}
+
 	@When("User click on first order in list on first page")
 	public void userClickOnFirstOrderInListOnFirstPage() {
-	click(pomFactory.retailOrderPage().firstOrderReview);
-	logger.info("user clicked on first order in the list successfully");
-		
+		click(pomFactory.retailOrderPage().firstOrderReview);
+		logger.info("user clicked on first order in the list successfully");
+
 	}
+
 	@When("User click on Review button")
 	public void userClickOnReviewButton() {
-	click(pomFactory.retailOrderPage().reviewBttn);
-	logger.info("user clicked on review button successfully");
+		click(pomFactory.retailOrderPage().reviewBttn);
+		logger.info("user clicked on review button successfully");
 	}
-	
+
 	@When("User write Review headline {string} and {string}")
 	public void userWriteReviewHeadlineAnd(String headline, String description) {
-	sendText(pomFactory.retailOrderPage().headLineInput, headline);
-	sendText(pomFactory.retailOrderPage().descriptionInput, description);
-	logger.info("User wrote a headline and description for the order successfully");
+		sendText(pomFactory.retailOrderPage().headLineInput, headline);
+		sendText(pomFactory.retailOrderPage().descriptionInput, description);
+		logger.info("User wrote a headline and description for the order successfully");
 	}
+
 	@When("User click Add your Review button")
 	public void userClickAddYourReviewButton() {
-	click(pomFactory.retailOrderPage().reviewSubmitBttn);
-	logger.info("user clicked on the review button successfully");
+		click(pomFactory.retailOrderPage().reviewSubmitBttn);
+		logger.info("user clicked on the review button successfully");
 	}
+
 	@Then("a review message should be displayed {string}")
 	public void aReviewMessageShouldBeDisplayed(String reviewSbmtMssg) {
-	waitTillPresence(pomFactory.retailOrderPage().reviewSubmitMssg);
-	Assert.assertEquals(pomFactory.retailOrderPage().reviewSubmitMssg.getText(),reviewSbmtMssg);  
-	logger.info("The review message was displayed successfully");
-	
+		waitTillPresence(pomFactory.retailOrderPage().reviewSubmitMssg);
+		Assert.assertEquals(pomFactory.retailOrderPage().reviewSubmitMssg.getText(), reviewSbmtMssg);
+		logger.info("The review message was displayed successfully");
+
 	}
-	
-	
+
 }

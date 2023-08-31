@@ -6618,3 +6618,522 @@
 2023-08-30 16:08:58,189 [main] INFO logger_File - User wrote a headline and description for the order successfully
 2023-08-30 16:08:58,477 [main] INFO logger_File - user clicked on the review button successfully
 2023-08-30 16:08:59,009 [main] INFO logger_File - The review message was displayed successfully
+2023-08-30 16:17:25,341 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:17:25,615 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:17:25,700 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:17:25,939 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:17:26,038 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:17:31,396 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:17:31,661 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:17:31,896 [main] INFO logger_File - Create new account bttn clicked successfully
+2023-08-30 16:17:32,302 [main] INFO logger_File - Signup button was clicked sucessfully
+2023-08-30 16:17:32,447 [main] INFO logger_File - User account is created successfully
+2023-08-30 16:17:37,828 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:17:38,103 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:17:38,181 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:17:38,422 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:17:38,517 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:17:38,781 [main] INFO logger_File - the user clicked on account option
+2023-08-30 16:17:39,123 [main] INFO logger_File - the update button was clicked successfully
+2023-08-30 16:17:39,668 [main] INFO logger_File - Account Information Updated Successfully
+2023-08-30 16:17:44,774 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:17:45,060 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:17:45,135 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:17:45,375 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:17:45,486 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:17:45,746 [main] INFO logger_File - the user clicked on account option
+2023-08-30 16:17:45,982 [main] INFO logger_File - The add payment button was clicked successfully
+2023-08-30 16:17:46,554 [main] INFO logger_File - The information was filled successfully
+2023-08-30 16:17:46,785 [main] INFO logger_File - The user clicked on the add to your card button successfully
+2023-08-30 16:17:46,797 [main] INFO logger_File - The card is present
+2023-08-30 16:17:50,369 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:17:50,625 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:17:50,703 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:17:50,936 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:17:51,059 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:17:51,324 [main] INFO logger_File - the user clicked on account option
+2023-08-30 16:17:51,773 [main] INFO logger_File - User clicked on the edit option successfully
+2023-08-30 16:17:52,001 [main] INFO logger_File - User clicked on the edit bttn successfully
+2023-08-30 16:17:52,179 [main] INFO logger_File - The infromation was filled successfully
+2023-08-30 16:17:52,412 [main] INFO logger_File - The update button was clicked successfully
+2023-08-30 16:17:52,963 [main] INFO logger_File - The information was updated successfully
+2023-08-30 16:17:57,014 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:17:57,268 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:17:57,343 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:17:57,576 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:17:57,728 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:17:57,977 [main] INFO logger_File - the user clicked on account option
+2023-08-30 16:17:58,702 [main] INFO logger_File - the card was clicked successfully
+2023-08-30 16:17:58,929 [main] INFO logger_File - User clicked on the remove card option successfully
+2023-08-30 16:18:04,147 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:18:04,409 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:18:04,480 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:18:04,711 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:18:04,828 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:18:05,093 [main] INFO logger_File - the user clicked on account option
+2023-08-30 16:18:05,326 [main] INFO logger_File - User clicked on Add address button successfully
+2023-08-30 16:18:05,798 [main] INFO logger_File - The address information were filled successfully
+2023-08-30 16:18:06,069 [main] INFO logger_File - The user clicked on add your address button successfully
+2023-08-30 16:18:06,597 [main] INFO logger_File - The address was added successfully
+2023-08-30 16:18:10,258 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:18:10,512 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:18:10,589 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:18:10,825 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:18:10,941 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:18:11,195 [main] INFO logger_File - the user clicked on account option
+2023-08-30 16:18:11,635 [main] INFO logger_File - User clicked on Edit button successfully
+2023-08-30 16:18:12,131 [main] INFO logger_File - User filled the new address form successfully
+2023-08-30 16:18:12,376 [main] INFO logger_File - The user clicked on update your address button successfully
+2023-08-30 16:18:12,901 [main] INFO logger_File - The address update message was displayed succeessfully
+2023-08-30 16:18:18,319 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:18:18,577 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:18:18,643 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:18:18,873 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:18:19,127 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:18:19,379 [main] INFO logger_File - the user clicked on account option
+2023-08-30 16:18:20,312 [main] INFO logger_File - The remove button was clicked successfully
+2023-08-30 16:18:20,323 [main] INFO logger_File - The address was removed successfully
+2023-08-30 16:18:23,962 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:18:24,218 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 16:18:29,728 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:18:29,974 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 16:18:55,594 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:18:55,838 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 16:19:19,864 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:19:20,111 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 16:19:44,168 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:19:44,418 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 16:20:08,133 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:20:08,375 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 16:20:33,579 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:20:33,839 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:20:33,909 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:20:34,135 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:20:34,260 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:20:34,509 [main] INFO logger_File - The user successfully clicked 
+2023-08-30 16:20:34,541 [main] INFO logger_File - User enterd the item for search successfully
+2023-08-30 16:20:34,766 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 16:20:35,013 [main] INFO logger_File - User clicked on the Item successfully
+2023-08-30 16:20:35,239 [main] INFO logger_File - User selected the item quantity successfully
+2023-08-30 16:20:35,458 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 16:20:35,473 [main] INFO logger_File - The number of the items in the cart is equal to the expected quantity successfully
+2023-08-30 16:20:37,911 [main] INFO logger_File - The cart is emptied for the next test
+2023-08-30 16:20:41,829 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:20:42,085 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:20:42,157 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:20:42,385 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:20:42,536 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:20:42,784 [main] INFO logger_File - User changed the category to Electronics Successfully
+2023-08-30 16:20:42,813 [main] INFO logger_File - User search for an item Apex Legend Successfully
+2023-08-30 16:20:43,036 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 16:20:43,653 [main] INFO logger_File - User clicked on Apex Legend item Successfully
+2023-08-30 16:20:43,873 [main] INFO logger_File - User selected quantity of Apex Legend
+2023-08-30 16:20:44,093 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 16:20:44,099 [main] INFO logger_File - The cart quantity chanded Successfully
+2023-08-30 16:20:44,319 [main] INFO logger_File - User click on Cart option
+2023-08-30 16:20:44,548 [main] INFO logger_File - User clicked on proceed to checkout Successfully
+2023-08-30 16:20:44,770 [main] INFO logger_File - User click on place your order Successfully
+2023-08-30 16:20:45,006 [main] INFO logger_File - The message was displayed Successfully
+2023-08-30 16:20:48,761 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:20:49,027 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:20:49,103 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:20:49,332 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:20:49,487 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:20:49,728 [main] INFO logger_File - User click on orders successfully
+2023-08-30 16:20:50,241 [main] INFO logger_File - User clicked on the first Order successfully
+2023-08-30 16:20:50,467 [main] INFO logger_File - User click on cancel order button successfully
+2023-08-30 16:20:50,697 [main] INFO logger_File - User selected the cancelation reason successfully
+2023-08-30 16:20:50,919 [main] INFO logger_File - User clicked on cancel order button successfully
+2023-08-30 16:20:56,465 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:20:56,715 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:20:56,793 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:20:57,024 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:20:57,182 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:20:57,427 [main] INFO logger_File - User click on orders section successfully
+2023-08-30 16:21:06,963 [main] INFO logger_File - First order in the list of clicked
+2023-08-30 16:21:07,209 [main] INFO logger_File - User clicked on return order button successfully
+2023-08-30 16:21:07,439 [main] INFO logger_File - User select the return reason successfully
+2023-08-30 16:21:07,659 [main] INFO logger_File - User select the drop off service reason successfully
+2023-08-30 16:21:07,882 [main] INFO logger_File - User click on return order button successfully
+2023-08-30 16:21:07,930 [main] INFO logger_File - The return message was displayed successfully
+2023-08-30 16:21:14,162 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 16:21:14,411 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 16:21:14,478 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 16:21:14,702 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 16:21:14,813 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 16:21:15,056 [main] INFO logger_File - user clicked on the orders section successfully
+2023-08-30 16:21:15,653 [main] INFO logger_File - user clicked on first order in the list successfully
+2023-08-30 16:21:15,880 [main] INFO logger_File - user clicked on review button successfully
+2023-08-30 16:21:15,956 [main] INFO logger_File - User wrote a headline and description for the order successfully
+2023-08-30 16:21:16,247 [main] INFO logger_File - user clicked on the review button successfully
+2023-08-30 16:21:16,779 [main] INFO logger_File - The review message was displayed successfully
+2023-08-30 20:16:34,294 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:16:34,561 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:16:34,641 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:16:34,875 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:16:34,998 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:16:35,274 [main] INFO logger_File - User changed the category to Electronics Successfully
+2023-08-30 20:16:35,306 [main] INFO logger_File - User search for an item Apex Legend Successfully
+2023-08-30 20:16:35,537 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:16:35,790 [main] INFO logger_File - User clicked on Apex Legend item Successfully
+2023-08-30 20:16:36,039 [main] INFO logger_File - User selected quantity of Apex Legend
+2023-08-30 20:16:36,274 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:16:36,287 [main] INFO logger_File - The cart quantity chanded Successfully
+2023-08-30 20:16:36,520 [main] INFO logger_File - User click on Cart option
+2023-08-30 20:16:36,755 [main] INFO logger_File - User clicked on proceed to checkout Successfully
+2023-08-30 20:16:36,993 [main] INFO logger_File - User click on place your order Successfully
+2023-08-30 20:16:37,253 [main] INFO logger_File - The message was displayed Successfully
+2023-08-30 20:31:31,240 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:31:31,505 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:31:31,596 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:31:31,834 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:31:31,934 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:31:32,201 [main] INFO logger_File - User changed the category to Electronics Successfully
+2023-08-30 20:31:32,239 [main] INFO logger_File - User search for an item Apex Legend Successfully
+2023-08-30 20:31:32,470 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:31:32,701 [main] INFO logger_File - User clicked on Apex Legend item Successfully
+2023-08-30 20:31:32,929 [main] INFO logger_File - User selected quantity of Apex Legend
+2023-08-30 20:31:33,155 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:31:33,166 [main] INFO logger_File - The cart quantity chanded Successfully
+2023-08-30 20:31:33,393 [main] INFO logger_File - User click on Cart option
+2023-08-30 20:31:33,633 [main] INFO logger_File - User clicked on proceed to checkout Successfully
+2023-08-30 20:31:33,866 [main] INFO logger_File - User click on place your order Successfully
+2023-08-30 20:31:34,082 [main] INFO logger_File - The message was displayed Successfully
+2023-08-30 20:49:30,925 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:49:31,195 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:49:31,276 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:49:31,511 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:49:31,633 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:49:31,901 [main] INFO logger_File - User changed the category to Electronics Successfully
+2023-08-30 20:49:31,937 [main] INFO logger_File - User search for an item Apex Legend Successfully
+2023-08-30 20:49:32,168 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:49:32,536 [main] INFO logger_File - User clicked on Apex Legend item Successfully
+2023-08-30 20:49:32,765 [main] INFO logger_File - User selected quantity of Apex Legend
+2023-08-30 20:49:32,990 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:49:33,024 [main] INFO logger_File - The cart quantity chanded Successfully
+2023-08-30 20:49:33,261 [main] INFO logger_File - User click on Cart option
+2023-08-30 20:49:33,501 [main] INFO logger_File - User clicked on proceed to checkout Successfully
+2023-08-30 20:49:33,729 [main] INFO logger_File - User click on place your order Successfully
+2023-08-30 20:49:33,974 [main] INFO logger_File - The message was displayed Successfully
+2023-08-30 20:49:34,001 [main] INFO logger_File - User search for an item Apex Legend Successfully
+2023-08-30 20:49:34,233 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:49:34,463 [main] INFO logger_File - User clicked on Apex Legend item Successfully
+2023-08-30 20:49:34,691 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:49:34,930 [main] INFO logger_File - User click on Cart option
+2023-08-30 20:49:35,173 [main] INFO logger_File - User clicked on proceed to checkout Successfully
+2023-08-30 20:49:35,456 [main] INFO logger_File - User click on place your order Successfully
+2023-08-30 20:49:35,553 [main] INFO logger_File - The message was displayed Successfully
+2023-08-30 20:50:45,737 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:50:46,001 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:50:46,084 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:50:46,325 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:50:46,438 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:50:51,683 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:50:51,948 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:50:52,180 [main] INFO logger_File - Create new account bttn clicked successfully
+2023-08-30 20:50:52,577 [main] INFO logger_File - Signup button was clicked sucessfully
+2023-08-30 20:50:53,028 [main] INFO logger_File - User account is created successfully
+2023-08-30 20:50:56,518 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:50:56,774 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:50:56,863 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:50:57,116 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:50:57,243 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:50:57,513 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:50:57,850 [main] INFO logger_File - the update button was clicked successfully
+2023-08-30 20:50:58,723 [main] INFO logger_File - Account Information Updated Successfully
+2023-08-30 20:51:04,030 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:51:04,284 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:51:04,362 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:51:04,606 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:51:04,735 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:51:05,005 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:51:05,230 [main] INFO logger_File - The add payment button was clicked successfully
+2023-08-30 20:51:05,789 [main] INFO logger_File - The information was filled successfully
+2023-08-30 20:51:06,017 [main] INFO logger_File - The user clicked on the add to your card button successfully
+2023-08-30 20:51:06,033 [main] INFO logger_File - The card is present
+2023-08-30 20:51:11,401 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:51:11,653 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:51:11,726 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:51:11,959 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:51:12,084 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:51:12,345 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:51:13,065 [main] INFO logger_File - User clicked on the edit option successfully
+2023-08-30 20:51:13,319 [main] INFO logger_File - User clicked on the edit bttn successfully
+2023-08-30 20:51:13,507 [main] INFO logger_File - The infromation was filled successfully
+2023-08-30 20:51:13,736 [main] INFO logger_File - The update button was clicked successfully
+2023-08-30 20:51:14,276 [main] INFO logger_File - The information was updated successfully
+2023-08-30 20:51:19,532 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:51:19,791 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:51:19,871 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:51:20,105 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:51:20,219 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:51:20,474 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:51:20,701 [main] INFO logger_File - the card was clicked successfully
+2023-08-30 20:51:20,928 [main] INFO logger_File - User clicked on the remove card option successfully
+2023-08-30 20:51:24,601 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:51:24,858 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:51:24,929 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:51:25,168 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:51:25,306 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:51:25,556 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:51:25,790 [main] INFO logger_File - User clicked on Add address button successfully
+2023-08-30 20:51:26,245 [main] INFO logger_File - The address information were filled successfully
+2023-08-30 20:51:26,531 [main] INFO logger_File - The user clicked on add your address button successfully
+2023-08-30 20:51:27,105 [main] INFO logger_File - The address was added successfully
+2023-08-30 20:51:30,762 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:51:31,020 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:51:31,094 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:51:31,327 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:51:31,770 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:51:32,023 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:51:32,499 [main] INFO logger_File - User clicked on Edit button successfully
+2023-08-30 20:51:33,019 [main] INFO logger_File - User filled the new address form successfully
+2023-08-30 20:51:33,267 [main] INFO logger_File - The user clicked on update your address button successfully
+2023-08-30 20:51:33,857 [main] INFO logger_File - The address update message was displayed succeessfully
+2023-08-30 20:51:37,382 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:51:37,636 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:51:37,714 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:51:37,943 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:51:38,089 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:51:38,344 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:51:39,020 [main] INFO logger_File - The remove button was clicked successfully
+2023-08-30 20:51:39,051 [main] INFO logger_File - The address was removed successfully
+2023-08-30 20:51:42,588 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:51:42,846 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:51:48,079 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:51:48,329 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:52:12,358 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:52:12,628 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:52:35,976 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:52:36,222 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:52:59,824 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:53:00,088 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:53:25,247 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:53:25,492 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:53:50,876 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:53:51,130 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:53:51,218 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:53:51,444 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:53:51,576 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:53:51,839 [main] INFO logger_File - The user successfully clicked 
+2023-08-30 20:53:51,873 [main] INFO logger_File - User enterd the item for search successfully
+2023-08-30 20:53:52,095 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:53:52,388 [main] INFO logger_File - User clicked on the Item successfully
+2023-08-30 20:53:52,620 [main] INFO logger_File - User selected the item quantity successfully
+2023-08-30 20:53:52,841 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:53:52,848 [main] INFO logger_File - The number of the items in the cart is equal to the expected quantity successfully
+2023-08-30 20:53:55,329 [main] INFO logger_File - The cart is emptied for the next test
+2023-08-30 20:53:59,054 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:53:59,319 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:53:59,403 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:53:59,631 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:53:59,751 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:53:59,993 [main] INFO logger_File - User changed the category to Electronics Successfully
+2023-08-30 20:54:00,024 [main] INFO logger_File - User search for an item Apex Legend Successfully
+2023-08-30 20:54:00,247 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:54:00,565 [main] INFO logger_File - User clicked on Apex Legend item Successfully
+2023-08-30 20:54:00,787 [main] INFO logger_File - User selected quantity of Apex Legend
+2023-08-30 20:54:01,012 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:54:01,021 [main] INFO logger_File - The cart quantity chanded Successfully
+2023-08-30 20:54:01,246 [main] INFO logger_File - User click on Cart option
+2023-08-30 20:54:01,488 [main] INFO logger_File - User clicked on proceed to checkout Successfully
+2023-08-30 20:54:01,724 [main] INFO logger_File - User click on place your order Successfully
+2023-08-30 20:54:01,939 [main] INFO logger_File - The message was displayed Successfully
+2023-08-30 20:54:01,965 [main] INFO logger_File - User search for an item Apex Legend Successfully
+2023-08-30 20:54:02,193 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:54:02,450 [main] INFO logger_File - User clicked on Apex Legend item Successfully
+2023-08-30 20:54:02,676 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:54:02,918 [main] INFO logger_File - User click on Cart option
+2023-08-30 20:54:03,154 [main] INFO logger_File - User clicked on proceed to checkout Successfully
+2023-08-30 20:54:03,440 [main] INFO logger_File - User click on place your order Successfully
+2023-08-30 20:54:03,494 [main] INFO logger_File - The message was displayed Successfully
+2023-08-30 20:54:07,248 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:54:07,509 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:54:07,587 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:54:07,817 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:54:07,921 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:54:08,166 [main] INFO logger_File - User click on orders successfully
+2023-08-30 20:54:08,644 [main] INFO logger_File - User clicked on the first Order successfully
+2023-08-30 20:54:08,875 [main] INFO logger_File - User click on cancel order button successfully
+2023-08-30 20:54:09,126 [main] INFO logger_File - User selected the cancelation reason successfully
+2023-08-30 20:54:09,363 [main] INFO logger_File - User clicked on cancel order button successfully
+2023-08-30 20:54:14,779 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:54:15,028 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:54:15,094 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:54:15,321 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:54:15,444 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:54:15,687 [main] INFO logger_File - User click on orders section successfully
+2023-08-30 20:54:29,473 [main] INFO logger_File - First order in the list of clicked
+2023-08-30 20:54:29,717 [main] INFO logger_File - User clicked on return order button successfully
+2023-08-30 20:54:29,966 [main] INFO logger_File - User select the return reason successfully
+2023-08-30 20:54:30,199 [main] INFO logger_File - User select the drop off service reason successfully
+2023-08-30 20:54:30,433 [main] INFO logger_File - User click on return order button successfully
+2023-08-30 20:54:30,461 [main] INFO logger_File - The return message was displayed successfully
+2023-08-30 20:54:34,379 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:54:34,639 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:54:34,711 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:54:34,941 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:54:35,055 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:54:35,303 [main] INFO logger_File - user clicked on the orders section successfully
+2023-08-30 20:54:36,056 [main] INFO logger_File - user clicked on first order in the list successfully
+2023-08-30 20:54:36,283 [main] INFO logger_File - user clicked on review button successfully
+2023-08-30 20:54:36,378 [main] INFO logger_File - User wrote a headline and description for the order successfully
+2023-08-30 20:54:36,679 [main] INFO logger_File - user clicked on the review button successfully
+2023-08-30 20:54:37,224 [main] INFO logger_File - The review message was displayed successfully
+2023-08-30 20:55:58,654 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:55:58,924 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:55:59,028 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:55:59,268 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:55:59,373 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:56:04,647 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:56:04,921 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:56:05,171 [main] INFO logger_File - Create new account bttn clicked successfully
+2023-08-30 20:56:05,592 [main] INFO logger_File - Signup button was clicked sucessfully
+2023-08-30 20:56:05,699 [main] INFO logger_File - User account is created successfully
+2023-08-30 20:56:11,009 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:56:11,268 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:56:11,374 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:56:11,605 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:56:11,716 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:56:11,979 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:56:12,326 [main] INFO logger_File - the update button was clicked successfully
+2023-08-30 20:56:12,947 [main] INFO logger_File - Account Information Updated Successfully
+2023-08-30 20:56:18,102 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:56:18,360 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:56:18,442 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:56:18,672 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:56:18,788 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:56:19,050 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:56:19,280 [main] INFO logger_File - The add payment button was clicked successfully
+2023-08-30 20:56:19,873 [main] INFO logger_File - The information was filled successfully
+2023-08-30 20:56:20,112 [main] INFO logger_File - The user clicked on the add to your card button successfully
+2023-08-30 20:56:20,145 [main] INFO logger_File - The card is present
+2023-08-30 20:56:25,580 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:56:25,849 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:56:25,943 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:56:26,182 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:56:26,319 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:56:26,575 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:56:27,338 [main] INFO logger_File - User clicked on the edit option successfully
+2023-08-30 20:56:27,570 [main] INFO logger_File - User clicked on the edit bttn successfully
+2023-08-30 20:56:27,764 [main] INFO logger_File - The infromation was filled successfully
+2023-08-30 20:56:27,994 [main] INFO logger_File - The update button was clicked successfully
+2023-08-30 20:56:28,542 [main] INFO logger_File - The information was updated successfully
+2023-08-30 20:56:32,263 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:56:32,520 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:56:32,597 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:56:32,835 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:56:32,974 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:56:33,233 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:56:33,778 [main] INFO logger_File - the card was clicked successfully
+2023-08-30 20:56:34,008 [main] INFO logger_File - User clicked on the remove card option successfully
+2023-08-30 20:56:39,346 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:56:39,598 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:56:39,671 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:56:39,900 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:56:40,006 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:56:40,257 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:56:40,487 [main] INFO logger_File - User clicked on Add address button successfully
+2023-08-30 20:56:40,951 [main] INFO logger_File - The address information were filled successfully
+2023-08-30 20:56:41,225 [main] INFO logger_File - The user clicked on add your address button successfully
+2023-08-30 20:56:41,806 [main] INFO logger_File - The address was added successfully
+2023-08-30 20:56:45,426 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:56:45,681 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:56:45,755 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:56:45,994 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:56:46,398 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:56:46,649 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:56:47,206 [main] INFO logger_File - User clicked on Edit button successfully
+2023-08-30 20:56:47,731 [main] INFO logger_File - User filled the new address form successfully
+2023-08-30 20:56:47,979 [main] INFO logger_File - The user clicked on update your address button successfully
+2023-08-30 20:56:48,583 [main] INFO logger_File - The address update message was displayed succeessfully
+2023-08-30 20:56:53,684 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:56:53,937 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:56:54,006 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:56:54,233 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:56:54,342 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:56:54,583 [main] INFO logger_File - the user clicked on account option
+2023-08-30 20:56:55,160 [main] INFO logger_File - The remove button was clicked successfully
+2023-08-30 20:56:55,178 [main] INFO logger_File - The address was removed successfully
+2023-08-30 20:57:00,431 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:57:00,688 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:57:04,671 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:57:04,919 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:57:28,597 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:57:28,854 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:57:52,347 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:57:52,594 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:58:16,211 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:58:16,457 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:58:40,228 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:58:40,472 [main] INFO logger_File - The user clicked on Humberger button successfully
+2023-08-30 20:59:04,065 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:59:04,322 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:59:04,392 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:59:04,627 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:59:04,764 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:59:05,022 [main] INFO logger_File - The user successfully clicked 
+2023-08-30 20:59:05,053 [main] INFO logger_File - User enterd the item for search successfully
+2023-08-30 20:59:05,276 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:59:05,574 [main] INFO logger_File - User clicked on the Item successfully
+2023-08-30 20:59:05,805 [main] INFO logger_File - User selected the item quantity successfully
+2023-08-30 20:59:06,045 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:59:06,063 [main] INFO logger_File - The number of the items in the cart is equal to the expected quantity successfully
+2023-08-30 20:59:08,533 [main] INFO logger_File - The cart is emptied for the next test
+2023-08-30 20:59:12,346 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:59:12,603 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:59:12,691 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:59:12,920 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:59:13,042 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:59:13,308 [main] INFO logger_File - User changed the category to Electronics Successfully
+2023-08-30 20:59:13,336 [main] INFO logger_File - User search for an item Apex Legend Successfully
+2023-08-30 20:59:13,560 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:59:14,031 [main] INFO logger_File - User clicked on Apex Legend item Successfully
+2023-08-30 20:59:14,254 [main] INFO logger_File - User selected quantity of Apex Legend
+2023-08-30 20:59:14,474 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:59:14,483 [main] INFO logger_File - The cart quantity chanded Successfully
+2023-08-30 20:59:14,734 [main] INFO logger_File - User click on Cart option
+2023-08-30 20:59:14,967 [main] INFO logger_File - User clicked on proceed to checkout Successfully
+2023-08-30 20:59:15,201 [main] INFO logger_File - User click on place your order Successfully
+2023-08-30 20:59:15,448 [main] INFO logger_File - The message was displayed Successfully
+2023-08-30 20:59:15,474 [main] INFO logger_File - User search for an item Apex Legend Successfully
+2023-08-30 20:59:15,707 [main] INFO logger_File - User clicked on the Search button successfully
+2023-08-30 20:59:15,950 [main] INFO logger_File - User clicked on Apex Legend item Successfully
+2023-08-30 20:59:16,214 [main] INFO logger_File - User clicked on add to cart button successfully
+2023-08-30 20:59:16,457 [main] INFO logger_File - User click on Cart option
+2023-08-30 20:59:16,689 [main] INFO logger_File - User clicked on proceed to checkout Successfully
+2023-08-30 20:59:16,973 [main] INFO logger_File - User click on place your order Successfully
+2023-08-30 20:59:17,021 [main] INFO logger_File - The message was displayed Successfully
+2023-08-30 20:59:20,853 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:59:21,109 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:59:21,183 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:59:21,412 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:59:21,535 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:59:21,786 [main] INFO logger_File - User click on orders successfully
+2023-08-30 20:59:22,616 [main] INFO logger_File - User clicked on the first Order successfully
+2023-08-30 20:59:22,846 [main] INFO logger_File - User click on cancel order button successfully
+2023-08-30 20:59:23,087 [main] INFO logger_File - User selected the cancelation reason successfully
+2023-08-30 20:59:23,313 [main] INFO logger_File - User clicked on cancel order button successfully
+2023-08-30 20:59:28,729 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:59:28,978 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:59:29,063 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:59:29,299 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:59:29,415 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:59:29,654 [main] INFO logger_File - User click on orders section successfully
+2023-08-30 20:59:43,519 [main] INFO logger_File - First order in the list of clicked
+2023-08-30 20:59:43,771 [main] INFO logger_File - User clicked on return order button successfully
+2023-08-30 20:59:44,020 [main] INFO logger_File - User select the return reason successfully
+2023-08-30 20:59:44,252 [main] INFO logger_File - User select the drop off service reason successfully
+2023-08-30 20:59:44,484 [main] INFO logger_File - User click on return order button successfully
+2023-08-30 20:59:44,529 [main] INFO logger_File - The return message was displayed successfully
+2023-08-30 20:59:47,963 [main] INFO logger_File - The user is on tek retail website
+2023-08-30 20:59:48,223 [main] INFO logger_File - The User clicked on signIn button successfully
+2023-08-30 20:59:48,299 [main] INFO logger_File - The user successfully entred the email and password
+2023-08-30 20:59:48,523 [main] INFO logger_File - the user clicked on the login button successfully
+2023-08-30 20:59:48,665 [main] INFO logger_File - The user is signed in successfully
+2023-08-30 20:59:48,908 [main] INFO logger_File - user clicked on the orders section successfully
+2023-08-30 20:59:49,819 [main] INFO logger_File - user clicked on first order in the list successfully
+2023-08-30 20:59:50,043 [main] INFO logger_File - user clicked on review button successfully
+2023-08-30 20:59:50,122 [main] INFO logger_File - User wrote a headline and description for the order successfully
+2023-08-30 20:59:50,404 [main] INFO logger_File - user clicked on the review button successfully
+2023-08-30 20:59:50,935 [main] INFO logger_File - The review message was displayed successfully

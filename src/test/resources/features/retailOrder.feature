@@ -32,6 +32,15 @@ Feature: Order Page
     And User click on Proceed to Checkout button
     And User click on Place Your Order
     Then A message should be displayed 'Order Placed, Thanks'
+    #	new steps for test to run with regression even multiple times
+    Then User search for item named 'Amazon Fire TV'
+    And User click on Search icon
+    And User click on item AmazonTV
+    And User click add to Cart button
+    And User click on Cart option
+    And User click on Proceed to Checkout button
+    And User click on Place Your Order
+    Then A message should be displayed 'Order Placed, Thanks'
 
   @userCancelTheOrder
   Scenario: Verify User can cancel the order
